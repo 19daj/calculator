@@ -1,0 +1,33 @@
+#second-input,
+#together div, 
+button {
+    margin-top: 10px;
+}
+
+button {
+    border: 0px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+#together {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: peachpuff;
+}
+
+#father input {
+    margin-left: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#father {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

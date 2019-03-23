@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="together">
+        <div>
+            <span>Número 1</span>
+            <input id="first" type="text" onkeyup="showValue()">
+        </div>
+        <div id="second-input">
+            <span>Número 2</span>
+            <input id="second" type="text" onkeyup="showValue2()">
+        </div>
+        <div>
+            <button onclick="addition()">+</button>
+            <button onclick="substraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="residue()">%</button>
+            <button onclick="power()">POT</button>
+            <button onclick="clean()">CE</button>
+        </div>
+    </div>
+    <div id="father"></div>
+    <script src="app.js"></script>
+</body>
+</html>
